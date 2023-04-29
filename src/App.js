@@ -2,7 +2,7 @@ import React from "react";
 import GlobalStyle from "./globalStyle";
 import { Container } from "./globalStyle";
 import { BrowserRouter as Router, Switch } from "react-router-dom"; // Rout
-
+import { Hstyle  , Cont} from "./localStyle";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
@@ -12,10 +12,10 @@ function App() {
       <GlobalStyle />
       <Router></Router>
       <Switch>
-        <Container
+        <Cont
           style={{ height: "100vh", display: "grid", "align-items": "center" }}
         >
-          <h1
+          <Hstyle
             style={{
               color: "rgb(94, 94, 94)",
               "text-align": "center",
@@ -24,8 +24,8 @@ function App() {
             Welcome to{" "}
             <span style={{ color: "rgb(76, 227, 160)" }}>TODO WEB APP</span>{" "}
             This app is under construction ..
-          </h1>
-        </Container>
+          </Hstyle>
+        </Cont>
       </Switch>
     </Router>
   );
