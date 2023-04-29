@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Work Sans', sans-serif;
     color:white;
+    background: rgb(20, 21, 20);
 }`;
 
 export const Section = styled.section`
