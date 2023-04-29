@@ -18,7 +18,7 @@ export const Hstyle = styled.h1`
 
    @media screen and (max-width: 768px)
    {
-       font-size: clamp(1rem, 2.5vw, 3.5rem);
+       font-size: clamp(1.3rem, 2.5vw, 3.5rem);
 
    }
 
